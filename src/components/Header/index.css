@@ -1,0 +1,117 @@
+.navBar {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .navBar {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.nav-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  max-width: 1110px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.nav-mobile-logo-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.logo-mobile {
+  width: 165px;
+}
+.nav-logout-btn {
+  border: none;
+  padding: 0px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.logout-btn {
+  width: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mobile-logo-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo-desktop {
+    width: 165px;
+  }
+}
+.nav-desktop-logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.navMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: flex-end;
+  flex: 1;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.nav-menu-item {
+  font-family: 'Roboto';
+  margin: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #475569;
+}
+.logout-desktop-btn {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 10px;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #0967d2;
+  border: none;
+  border-radius: 4px;
+  margin-left: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-desktop-logo-container {
+    display: none;
+  }
+}
+.logo-mobile-items {
+  background-color: #e6f6ff;
+  width: 100%;
+}
+.logo-items-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+.logo-item-img {
+  width: 26px;
+}
+.nav-menu-item-mobile {
+  margin: 0px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-mobile-items {
+    display: none;
+  }
+}
